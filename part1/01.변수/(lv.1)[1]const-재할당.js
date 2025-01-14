@@ -6,9 +6,12 @@
  * TypeError 또는 SyntaxError 등의 에러가 콘솔에 표시되어야 합니다.
  */
 
-function reassignConst() {
-  // TODO
-}
-
+function reassignConst(num) {
+      const number = num;
+      number = 3;
+    return number;
+    console.log(number);
+    }
+reassignConst();
 // export 를 수정하지 마세요.
 export { reassignConst };
