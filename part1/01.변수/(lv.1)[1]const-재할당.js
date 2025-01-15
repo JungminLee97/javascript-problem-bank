@@ -12,6 +12,6 @@ function reassignConst(num) {
     return number;
     console.log(number);
     }
-reassignConst();
+reassignConst(5);
 // export 를 수정하지 마세요.
 export { reassignConst };

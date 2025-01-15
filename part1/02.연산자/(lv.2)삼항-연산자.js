@@ -13,9 +13,18 @@
 function ternaryOperator(age) {
   let data = "";
   // TODO: 삼항연산자를 사용해 data 변수에 알맞은 값을 할당하세요.
-
-  return data;
-}
-
+// if(10 <= age < 20){
+//   return data.context = "10대";
+// } else if (20 <= age < 30) {
+//   return data.context = "20대";
+// } else if (30 <= age < 40) {
+//   return data.context = "30대";
+// } else {
+//   return data;
+// }
+10 <= age < 20? data.context = "10대" : data; 
+return data;
+};
+ternaryOperator();
 // export 를 수정하지 마세요.
 export { ternaryOperator };

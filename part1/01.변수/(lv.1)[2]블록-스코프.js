@@ -20,8 +20,8 @@ function blockScopeTest() {
   // 블록 외부에서 변수 접근
   // console.log(u); // 2
   // console.log(w); // ReferenceError
-  console.log(w);
   console.log(u);
+  console.log(w);
 }
 blockScopeTest();
 // export 를 수정하지 마세요.
