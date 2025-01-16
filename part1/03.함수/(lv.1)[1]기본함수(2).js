@@ -9,10 +9,10 @@
  * @returns {string}
  *
  */
-
 function greet(name) {
-  // TODO: "Hello, {name}"을 반환
+  return `Hello, {name}`;
 }
 
+console.log(greet("minsu"));
 // export 를 수정하지 마세요.
 export { greet };
