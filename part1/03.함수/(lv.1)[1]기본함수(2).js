@@ -10,9 +10,9 @@
  *
  */
 function greet(name) {
-  return `Hello, {name}`;
+  return `Hello, ${name}`;
 }
 
-console.log(greet("minsu"));
+greet("minsu");
 // export 를 수정하지 마세요.
 export { greet };

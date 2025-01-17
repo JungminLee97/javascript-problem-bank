@@ -10,7 +10,6 @@ function reassignConst(num) {
       const number = num;
       number = 3;
     return number;
-    console.log(number);
     }
 reassignConst(5);
 // export 를 수정하지 마세요.
