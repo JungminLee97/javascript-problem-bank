@@ -10,6 +10,8 @@
  */
 function getObjectKeys(obj) {
   // TODO
+  const keys = Object.keys(obj)
+  return [...keys];
 }
 
 // export를 수정하지 마세요.
