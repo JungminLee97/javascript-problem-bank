@@ -24,20 +24,20 @@ const person2 = {
 
 let isSame = person === person2;
 // TODO: person === person2 의 결과를 isSame에 할당
-
-let expected = true;
+isSame = false;
+let expected = false;
 // TODO: 위 비교의 결과(true 또는 false)에 대한 예상값을 expected에 할당
 
 const person3 = person;
 
 let isSame2 = true;
 // TODO: person === person3 의 결과를 isSame2에 할당
-
+isSame2 = true;
 let expected2 = {
   name: person.name,
   age: person.age,
 };
 // TODO: 위 비교의 결과(true 또는 false)에 대한 예상값을 expected2에 할당
-
+expected2 = true;
 // export를 수정하지 마세요.
 export { person, person2, isSame, expected, person3, isSame2, expected2 };
