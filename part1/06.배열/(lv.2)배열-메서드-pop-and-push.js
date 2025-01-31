@@ -18,7 +18,7 @@ function manageTaskList(tasks, newTask) {
   tasks.pop();
   tasks.push(newTask);
   if (tasks.length >= 1) {
-    return (tasks[0] = "Updated Task");
+    tasks[0] = "Updated Task";
   }
   return tasks;
 }
