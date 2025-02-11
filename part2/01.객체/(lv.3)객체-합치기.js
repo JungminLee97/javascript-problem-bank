@@ -16,7 +16,10 @@
  * @returns {object}
  */
 
-function mergeObjects(...objs) {}
+function mergeObjects(...objs) {
+  const reducedObject = objs.reduce((acc, obj) => ({ ...acc, ...obj }), {});
+  return reducedObject;
+}
 
 // export를 수정하지 마세요.
 export { mergeObjects };
