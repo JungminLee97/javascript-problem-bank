@@ -11,7 +11,15 @@
  */
 
 // TODO: 함수를 작성하세요.
-function getFrequency(arr) {}
+function getFrequency(arr) {
+  const frequency = new Map();
+
+  arr.forEach((item) => {
+    frequency.set(item, (frequency.get(item) || 0) + 1);
+  });
+
+  return Object.fromEntries(frequency); // Map을 객체로 변환하여 반환
+}
 
 // export 를 수정하지 마세요.
 export { getFrequency };
